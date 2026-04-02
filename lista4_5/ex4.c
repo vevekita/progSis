@@ -12,6 +12,7 @@ int main(){
                 printf("A soma dos ângulos é igual a %i", soma);
         }else{
                 int diferenca = soma % 360;
-<ando temos %i\n", diferenca);
+                printf("Como a soma dos dois ângulos ultrapassou 360, arrumando fica %i", diferenca);
         }
         return 0;
+}
