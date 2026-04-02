@@ -6,6 +6,6 @@ int main(){
         int c = 18;
         int d = 22;
         int soma = (a + b + c + d)/4;
-        printf("A média simples dos valores de a, b, c e d é igual a %i\n", som>
+        printf("A média simples dos valores de a, b, c e d é igual a %i\n", soma);
         return 0;
 }
