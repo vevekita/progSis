@@ -40,10 +40,10 @@ int main(){
                 status(personagem1);
                 status(zedinimigo);
         }
-        if(personagem1.vida > zedinimigo.vida){
+        if(personagem1.vida > zedinimigo.vida && personagem1.vida > 0){
                 printf("Xil venceu\n");
         }
-        else if(zedinimigo.vida > personagem1.vida){
+        else if(zedinimigo.vida > personagem1.vida && zedinimigo.vida > 0){
                 printf("Zed venceu\n");
         }
         else{
