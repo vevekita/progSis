@@ -31,10 +31,10 @@ int main(){
                 status(personagem1);
                 status(personagem2);
         }
-        if(personagem1.vida > personagem2.vida){
+        if(personagem1.vida > personagem2.vida && personagem1.vida > 0){
                 printf("Xil venceu\n");
         }
-        else if(personagem2.vida > personagem1.vida){
+        else if(personagem2.vida > personagem1.vida && personagem2.vida > 0){
                 printf("Yen venceu\n");
         }
         else{
