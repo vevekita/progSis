@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
+
 typedef struct{
         char nome[20];
         int poder;
@@ -29,7 +29,6 @@ Personagem inimigo(){
 }
 
 int main(){
-        srand(time(NULL));
         Personagem personagensInimigos[5] = {inimigo(), inimigo(), inimigo(), inimigo(), inimigo()};
         Personagem personagem1 = {"Xil", 54, 12, 100};
         printf("Batalhas\n");
