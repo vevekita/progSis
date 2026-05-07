@@ -1,0 +1,4 @@
+gcc -Wall par.c main.c -o main
+gcc -Wall par.c -c
+gcc -Wall main.c -c
+gcc par.o main.o -o main
