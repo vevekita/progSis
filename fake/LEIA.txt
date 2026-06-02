@@ -1,0 +1,3 @@
+nessa aula fiquei varzeando com o joguinho do 2048, então as anotações desses arquivos deve estar beeem desatualizada;
+algumas coisas sobre a aula:
+- UNIX EPOCH;
